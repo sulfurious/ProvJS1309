@@ -1,0 +1,29 @@
+.chat-container {
+  position   : absolute;
+  background : transparent;
+  height     : 60%;
+  width      : 25%;
+  min-height : 300px;
+  min-width  : 300px;
+  bottom     : 0;
+  left       : 0;
+}
+
+.chat-prompt {
+  background : transparent;
+  .message {
+    font-size : 15px;
+    width     : 85%;
+    .user {
+      font-size : 18px;
+      color     : #f00;
+    }
+  }
+  .time {
+    font-size : 9px;
+    top       : 15px;
+    right     : 10px;
+    position  : absolute;
+    color     : #dedede;
+  }
+}

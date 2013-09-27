@@ -1,0 +1,45 @@
+{
+  "name": "ModusTalk",
+  "indexHtmlPath": "index.html",
+  "url": null,
+  "js": [
+    {
+      "path": "touch/sencha-touch.js",
+      "x-bootstrap": true
+    },
+    {
+      "path": "app.js",
+      "bundle": true,
+      "update": "delta"
+    }
+  ],
+  "css": [
+    {
+      "path": "resources/css/app.css",
+      "update": "delta"
+    }
+  ],
+  "appCache": {
+    "cache": [
+      "index.html"
+    ],
+    "network": [
+      "*"
+    ],
+    "fallback": []
+  },
+  "resources": [
+    "package.json",
+    "server.js",
+    "lib",
+    "resources/images",
+    "resources/icons",
+    "resources/startup"
+  ],
+  "ignore": [
+    ".svn$"
+  ],
+  "archivePath": "archive",
+  "requires": [],
+  "id": "086c53e3-b77c-45e6-81d7-7b0d4c027c4e"
+}

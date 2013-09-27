@@ -1,0 +1,28 @@
+.login-view {
+  position: relative;
+  .title-home {
+    margin: 20px 0px;
+    h1 {
+      color: $blue-mt;
+      text-align: center;
+    }
+  }
+  .sign-in-form {
+    margin: 0 auto;
+    .sign-in {
+      @include red-button;
+      width: 50%;
+      margin: 20px auto;
+
+    }
+  }
+  .legal-bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    .copy-right {
+      text-align: center;
+      font-size: 10px;
+    }
+  }
+}

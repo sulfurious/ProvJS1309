@@ -1,0 +1,36 @@
+
+.remote-video-play {
+  position         : absolute;
+  z-index          : 999;
+  top              : 0;
+  right            : 0;
+  height           : 25%;
+  background-color : transparent;
+  max-width        : 400px;
+  max-height       : 400px;
+  video {
+    border : 1px solid #FFF;
+  }
+}
+
+.video-component {
+  background-color : transparent;
+}
+
+/**
+Some filters applied on Video
+*/
+.grayscale {
+  -webkit-filter : grayScale($grade);
+  filter : grayScale($grade);
+}
+
+.sepia {
+  -webkit-filter : sepia($grade);
+  filter : sepia($grade);
+}
+
+.blur {
+  filter         : blur(10px);
+  -webkit-filter : blur(10px);
+}

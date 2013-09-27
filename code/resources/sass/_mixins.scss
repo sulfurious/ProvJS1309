@@ -1,0 +1,12 @@
+/**
+ Define your mixins here
+*/
+$grade:1;
+@mixin red-button {
+  background-color: $red-mt;
+  color: #fff;
+  background-image: none;
+  &.x-button-pressing {
+    background-color: $red_dark-mt;
+  }
+}

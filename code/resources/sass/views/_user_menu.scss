@@ -1,0 +1,37 @@
+.user-menu .x-innerhtml{
+  font-size: 18px;
+  padding: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  .user-name {
+    -webkit-box-flex: 3;
+    box-flex: 2;
+    color: #fff;
+    width:150px;
+  }
+  .show-code {
+
+    -webkit-box-flex: 2;
+    color: #dedede;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    .code {
+      color: #fff;
+    }
+  }
+
+  .menu-action {
+    margin-right: 20px;
+    color: #fff;
+    background-color: #123;
+    border-radius: 7px;
+    text-align: center;
+    padding: 5px 15px;
+    height: 32px;
+    &.pressed {
+      background-color: #dedede;
+    }
+  }
+}
